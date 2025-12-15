@@ -45,6 +45,25 @@
     --color-brand-main: #2563eb;
     --color-brand-soft: #dbeafe;
     --color-brand-strong: #1e40af;
+
+    /* =========================
+    Landing page colors
+    ========================= */
+
+    /* Brand / Primary colors */
+    --color-brand-red-400: hsl(7 99% 70%);
+    --color-brand-yellow-500: hsl(51 100% 49%);
+
+    --color-brand-green-800: hsl(167 40% 24%); /* graphic design text */
+    --color-brand-blue-800: hsl(198 62% 26%); /* photography text */
+    --color-brand-green-500: hsl(167 34% 41%); /* footer */
+
+    /* Neutral colors */
+    --color-neutral-950: hsl(212 27% 19%);
+    --color-neutral-600: hsl(213 9% 39%);
+    --color-neutral-550: hsl(232 10% 55%);
+    --color-neutral-400: hsl(210 4% 67%);
+    --color-neutral-0: hsl(0 100% 100%);
 }
 
 :root {
@@ -127,4 +146,8 @@
     body {
         @apply bg-background text-foreground;
     }
+}
+
+a.active {
+    @apply text-primary opacity-0;
 }
