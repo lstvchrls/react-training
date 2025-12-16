@@ -161,3 +161,7 @@
 a.active {
     @apply text-primary opacity-80 pointer-events-none;
 }
+
+@utility main-container {
+    @apply container mx-auto px-4 space-y-10 py-10;
+}
