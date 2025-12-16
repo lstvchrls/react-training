@@ -40,12 +40,11 @@ const Navbar = () => {
                     ))}
                     <li>
                         <Button
-                            asChild
                             variant="secondary"
                             className="rounded-full pointer-events-none"
-                        >
-                            <Link to="/contact">Contact</Link>
-                        </Button>
+                            nativeButton={false}
+                            render={<Link to="/contact">Contact</Link>}
+                        />
                     </li>
                 </ul>
             </div>
