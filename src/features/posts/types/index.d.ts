@@ -5,4 +5,8 @@ export interface IPost {
     body: string;
 }
 
+export interface IUpdatePostPayload extends IPostFormData {
+    userId: number;
+}
+
 export type PostQueryParams = Partial<Pick<IPost, 'userId'>>;
