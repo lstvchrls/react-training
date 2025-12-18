@@ -1,4 +1,3 @@
-import './App.css';
 import AppRouter from './app/router';
 import { AppProvider } from './app/provider';
 
